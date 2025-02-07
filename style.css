@@ -1,10 +1,8 @@
-/* style.css */
-
 body {
     font-family: Arial, sans-serif; /* Fallback font family */
     text-align: center; /* Center-align text */
     margin: 0; /* Remove default margin */
-    background-color: #ff5869; /* Set background color to light pink */
+    background-color: #FADADD; /* Set background color to light pink */
 }
 
 #container {
@@ -16,7 +14,7 @@ body {
 }
 
 #image-container {
-    /* This container will hold the images */
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #question {
@@ -33,7 +31,7 @@ button {
     margin: 0 10px; /* Set margin around buttons */
     font-size: 26px; /* Set font size for buttons */
     font-family: 'Sacramento', cursive; /* Apply Sacramento font to the options */
-    background-color: #ff0033; /* Set button background color */
+    background-color: #FB607F; /* Set button background color */
     color: white; /* Set text color to white */
     border: none; /* Remove button border */
     cursor: pointer; /* Set cursor to pointer on hover */
