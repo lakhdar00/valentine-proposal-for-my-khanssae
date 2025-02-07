@@ -11,7 +11,7 @@ function selectOption(option) {
         });
     } else if (option === 'no') {
         // Change text on the "No" button to "You sure?"
-        document.getElementById('no-button').innerText = 'You sure?'; 
+        document.getElementById('no-button').innerText = 'You sure habibati?'; 
         // Increase font size of "Yes" button
         var yesButton = document.getElementById('yes-button');
         var currentFontSize = window.getComputedStyle(yesButton).getPropertyValue('font-size');
@@ -70,9 +70,12 @@ function displayCatHeart() {
     catHeartImage.alt = 'Cat Heart';
     // When the cat-heart image is fully loaded, add it to the image container
     catHeartImage.onload = function() {
-        imageContainer.appendChild(catHeartImage);
+        imageContainer.appendChild(catHeartImage).style.paddingLeft = "55px";
         // Hide the options container
         document.getElementById('options').style.display = 'none';
+        setTimeout(function() {
+            document.getElementById('final-text').style.display = 'block';
+        }, 1000);
     };
 }
 
