@@ -37,7 +37,11 @@ img[alt="anawnti"] {
 #options {
     margin-top: 20px; /* Add space above the options */
 }
-
+#final-text{
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    margin-top: -100px;
+}
 button {
     padding: 10px 20px; /* Set padding for buttons */
     margin: 0 10px; /* Set margin around buttons */
