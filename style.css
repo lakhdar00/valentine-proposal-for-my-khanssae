@@ -12,9 +12,21 @@ body {
     justify-content: center; /* Center-align items vertically */
     height: 100vh; /* Make the container full viewport height */
 }
-
+img[alt="toietmoi"] {
+    width: 200px;
+    margin-bottom:-270px;
+    margin-right: 900px;
+}
+img[alt="anawnti"] {
+    width: 200px;
+    margin-bottom:-300px;
+    margin-left: 900px;
+}
 #image-container {
-    font-family: 'Courier New', Courier, monospace;
+    width: 30%;
+    height: 30%;
+    padding-bottom: 230px;
+    margin-left: -270px;
 }
 
 #question {
